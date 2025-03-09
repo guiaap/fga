@@ -1,6 +1,73 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Montserrat';
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
 
 header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 60px;
+
+    position: fixed;
+    z-index: 1000;
+
+    background-color: #d9d9d9ab;
+}
+
+header > div#hlogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100%;
+}
+
+header > div#hlogo > img {
+    height: 40px;
+}
+
+section#apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 500px;
+
+    background-image: url(../imagens/city.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+section#apresentacao > div#apr_txt {
+    width: 90%;
     
+    color: white;
+}
+
+section#apresentacao > div#apr_txt > h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+section#apresentacao > div#apr_txt > p {
+    font-size: 1em;
+    text-align: justify;
 }
