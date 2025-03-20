@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+header {
+    height: 80px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    position: fixed;
+    z-index: 1000;
+
+    background-color: inherit;
+}
+
+header > a.hlogo > img {
+    height: 50px;
+}
+
+header > nav {
+    height: 100%;
+    width: 60%;
+}
+
+header > nav > ul {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    list-style-type: none;
+}
+
+header > nav > ul > li {
+    height: 100%;
+}
+
+header > nav > ul > li > a {
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+    color: #070E26;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+header > nav > ul > li > a:hover {
+    color: #730220;
+    border-bottom: 3px solid #730220;
+}
+
+header > a.btnContato {
+    height: 100%;
+    width: 150px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #730220;
+
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+
+    transition: 0.8s;
+}
+
+header > a.btnContato:hover {
+    background-color: #D9D9D9;
+    color: #730220;
+    border: 1px solid #730220;
+}

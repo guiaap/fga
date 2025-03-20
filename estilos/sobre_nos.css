@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+main > section#sobreNos {
+    height: 550px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main > section#sobreNos > div.snTextContainer {
+    width: 800px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main > section#sobreNos > div.snTextContainer > h2 {
+    margin-bottom: 10px;
+    font-size: 2em;
+    color: #070E26;
+}
+
+main > section#sobreNos > div.snTextContainer > hr {
+    height: 5px;
+    width: 90px;
+
+    background-color: #730220;
+    
+}
+
+main > section#sobreNos > div.snTextContainer > p {
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 1.1em;
+}
+
+main > section#sobreNos > div.snTextContainer > p > strong {
+    color: #730220;
+}
+
+main > section#sobreNos > p {
+    margin-top: 40px;
+    color: #730220;
+    text-align: center;
+    font-size: 1.1em;
+   
+}

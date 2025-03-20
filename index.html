@@ -4,19 +4,125 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FGA Sites</title>
-    <link rel="stylesheet" href="estilos/mobile_first.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/geral.css">
+    <link rel="stylesheet" href="estilos/header.css">
+    <link rel="stylesheet" href="estilos/apresentacao.css">
+    <link rel="stylesheet" href="estilos/sobre_nos.css">
+    <link rel="stylesheet" href="estilos/servicos.css">
+    <link rel="stylesheet" href="estilos/portifolio.css">
+    <link rel="stylesheet" href="estilos/footer.css">
 </head>
 <body>
     <header>
-        <div id="hlogo">
-            <img src="imagens/fga.png" alt="FGA Sites">
-        </div>
+        <a href="index.html" class="hlogo"><img src="imagens/logo.png" alt="FGA Sites"></a>
+        <nav>
+            <ul>
+                <li><a href="#apresentacao">Início</a></li>
+                <li><a href="#sobreNos">Sobre Nós</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#portifolio">Portifólio</a></li>
+            </ul>
+        </nav>
+        <a href="#" class="btnContato">CONTATO</a>
     </header>
-    <section id="apresentacao">
-        <div id="apr_txt">
-            <h1>Sua presença no mundo digital!</h1>
-            <p>Nascidos para transformar ideias, criamos mais do que meras páginas web: criamos sua presença no mundo da internet. Sendo para pequenos empreendedores, grandes empresas ou mesmo profissionais autônomos, entregamos soluções modernas, responsivas e sob medida para a sua necessidade.</p>
+    <main>
+        <section id="apresentacao">
+            <div class="aprTextContainer">
+                <h1>Sua presença no mundo digital!</h1>
+                <p>Nascidos para transformar ideias, criamos mais do que meras páginas web: criamos sua presença no mundo da internet. Sendo para pequenos empreendedores, grandes empresas ou mesmo profissionais autônomos, entregamos soluções modernas, responsivas e sob medida para a sua necessidade.</p>
+            </div>
+        </section>
+        <section id="sobreNos">
+            <div class="snTextContainer">
+                <h2>Sobre Nós</h2>
+                <hr>
+                <p>Fundada em Balneário Camboriú, Santa Catarina, a FGA surgiu como iniciativa própria de dois jovens empreendedores, que dividem um sonho em comum: trabalhar com o que gostam verdadeiramente e alcançar a própria liberdade financeira. Sendo assim, dedicaram seu tempo, esforço e vontade, para dominar as tecnologias HTML, CSS e JavaScript, afim de estarem aptos à entregarem sites robustos e únicos, implementando um grau de personalidade muito raro em projetos no-code.</p>
+                <p>Desde então, seguimos em nossa missão, com o objetivo de tornar a FGA bem sucedida e reconhecida no ramo, aprimorando cada vez mais nossas competências, afim tornamos nossos serviços cada vez mais acertivos e progredir para o desenvolvimento de demandas ainda mais complexas</p>
+                <p><strong>Aviso:</strong> esse projeto é feito com paixão, mas ainda estamos no início da nossa jornada. Conciliamos nosso tempo entre trabalho formal e faculdade. Por isso, algumas respostas e prazos podem levar um pouco mais de tempo, mas garantimos dedicação e qualidade em cada entrega.</p>
+            </div>
+            <p><strong>Ajude a FGA a se tornar a relização de um sonho!</strong></p>
+        </section>
+        <section id="servicos">
+            <div class="servContentContainer">
+                <div class="servTitleContainer">
+                    <h2>Nossos Serviços</h2>
+                    <hr>
+                </div>
+                    <div class="servItemContainer">
+                        <div class="servItem">
+                            <h3>Landing Page</h3>
+                            <p>Um site de página única, com um simples objetivo: converter visitantes em clientes ou leads. Layout direto e desing chamativo, texto objetivo e foco no essencial, sem distrações, levando o usuário a tomar a ação desejada.</p>
+                            <p class="preco">R$ 400,00</p>
+                        </div>
+                        <div class="servItem">
+                            <h3>Site Institucional</h3>
+                            <p>Perfeito para representar uma empresa ou profissional, funcionando como um cartão de visitas digital, de maneira a transmitir as informações essenciais sobre sua marca, como história, serviços, valores e outras.</p>
+                            <p class="preco">R$ 900,00</p>
+                        </div>
+                        <div class="servItem">
+                            <h3>Personalizado</h3>
+                            <p>Procura um solução maior ou diferenciada para o seu projeto? Entre em contato e faça um orçamento personalizado conosco</p>
+                            <p class="preco">R$ A definir</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="">FALE CONOSCO</a>
+        </section>
+        <section id="portifolio">
+            <h2>Portifólio</h2>
+            <hr>
+            <div class="portItem">
+
+            </div>
+            <div class="portItem">
+
+            </div>
+            <div class="portItem">
+
+            </div>
+            <div class="portItem">
+
+            </div>
+            <a href="">VEJA MAIS</a>
+        </section>
+    </main>
+    <footer>
+        <div class="logoInfo">
+            <img src="imagens/logo.png" alt="FGA Sites">
+            <a href="">WhatsApp: (49) 98410-3076</a>
+            <a href="">E-mail: fgasites@gmail.com</a>
         </div>
-    </section>
+        <nav>
+            <h3>Navegação</h3>
+            <ul>
+                <li><a href="#apresentacao">Início</a></li>
+                <li><a href="#sobreNos">Sobre Nós</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#portifolio">Portifólio</a></li>
+            </ul>
+        </nav>
+        <div class="redesSociais">
+            <h3>Siga-nos!</h3>
+            <div class="redesContainer">
+                <a href="">
+                    <div class="FWPP">
+                
+                    </div>
+                </a>
+                <a href="">
+                    <div class="FINST">
+                    </div>
+                </a>
+                <a href="">
+                    <div class="FLINK">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

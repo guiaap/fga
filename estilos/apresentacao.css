@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+main > section#apresentacao {
+    height: 650px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+    background-image: url(../imagens/city.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+main > section#apresentacao > div.aprTextContainer {
+    color: white;
+    width: 900px;
+    margin: 10%;
+}
+
+main > section#apresentacao > div.aprTextContainer > h1 {
+    font-size: 3em;
+}
+
+main > section#apresentacao > div.aprTextContainer > p {
+    font-size: 1.1em;
+    text-align: justify;
+}
