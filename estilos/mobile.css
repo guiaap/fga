@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+
+@media screen and (max-width: 600px) {
+    
+    header {
+        height: 60px;
+    }
+
+    header > nav {
+        display: none;
+    }
+
+    header > a.hlogo > img {
+        height: 40px;
+    }
+
+    header > a.btnContato {
+        display: none;
+    }
+
+    main > section#apresentacao {
+        height: 550px;
+        justify-content: center;
+    }
+
+    main > section#apresentacao > div.aprTextContainer {
+        max-width: 90%;
+    }
+
+    main > section#apresentacao > div.aprTextContainer > h1 {
+        font-size: 1.9em;
+        margin-bottom: 10px;
+    }
+
+    main > section#apresentacao > div.aprTextContainer > p {
+        font-size: 0.9em;
+    }
+
+    main > section#sobreNos {
+        height: 730px;
+    }
+
+    main > section#sobreNos > div.snTextContainer {
+        max-width: 90%;
+    }
+
+    main > section#sobreNos > div.snTextContainer > h2 {
+        font-size: 1.7em;
+    }
+
+    main > section#sobreNos > div.snTextContainer > p {
+        font-size: 0.9em;
+    }
+
+    main > section#sobreNos > p {
+        font-size: 0.9em;
+    }
+
+    main > section#servicos > div.servContentContainer > div.servItemContainer {
+        flex-direction: column;
+    }
+
+    main > section#servicos > div.servContentContainer > div.servItemContainer > div.servItem {
+        width: 90%;
+    }
+}
